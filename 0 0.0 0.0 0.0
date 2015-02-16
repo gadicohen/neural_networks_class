@@ -1,0 +1,30 @@
+0 0.0 0.0 0.0
+118442 -0.49475 2.47692 -0.75772
+24129 0.58078 2.70835 -2.77036
+113751 4.34338 -1.02977 -1.18542
+117957 7.27591 0.14718 -6.25623
+
+MinMaxPriorityQueue<Node> queue =  MinMaxPriorityQueue.orderedBy(new DistanceComparator(p)).maximumSize(k).create();
+	    	MinMaxPriorityQueue nearestNeighbors = _newTree.nearestNeigbhors(k, p, _newTree.getRoot(), queue);
+	    	
+
+
+/*if (size<k){
+				queue.add(curr);
+			}
+			
+			else if (size>=k){
+				if (dist<queue.last().point.distance(p)){
+					while(queue.size()>k){
+						queue.remove(queue.last());
+					}
+					queue.add(curr);
+				}
+			}*/
+
+
+			0 0.0 0.0 0.0
+118721 -2.28262 0.64697 0.29354
+53879 -1.9995 0.50462 1.49725
+87666 -0.01729 -1.81533 0.14824
+71454 -0.50359 -0.42128 -1.1767
